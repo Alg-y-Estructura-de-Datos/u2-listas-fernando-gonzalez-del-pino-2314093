@@ -4,7 +4,7 @@
 template<class T>
 class Nodo{
     private:
-        T dato;
+    T dato;
         Nodo<T> *siguiente;
     
     public:
@@ -23,7 +23,6 @@ class Nodo{
        void setSiguiente(Nodo<T> *siguiente){
            this->siguiente = siguiente;
        }
-
 
 };
 
